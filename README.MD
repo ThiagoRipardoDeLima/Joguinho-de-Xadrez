@@ -7,12 +7,7 @@
 
 
 - Composto por 3 camadas:
-
-	 ```mermaid					
-         graph TD
-          Camada_Aplicação --- Camada_Jogo_Xadrez
-           Camada_Jogo_Xadrez --- Camada_Tabuleiro
-   ```
+  
  > **Camada de Aplicação** - Responsável pela interação com o jogador.
  
  >  **Camada do Jogo Xadrez** - Responsável pelas regras de jogadas do jogo.
