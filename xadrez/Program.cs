@@ -10,8 +10,12 @@ namespace xadrez
             Posicao P;
 
             P = new Posicao(3,4);
+            Tabuleiro tabuleiro;
 
-            Console.WriteLine("Posição: " + P);
+            tabuleiro = new Tabuleiro(8, 8);
+
+
+            Tela.imprimeTabela(tabuleiro);
 
             Console.ReadLine();
 
