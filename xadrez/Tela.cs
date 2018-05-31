@@ -25,6 +25,7 @@ namespace xadrez
             }
 
             Console.Write("  a b c d e f g h");
+            Console.WriteLine();
         }
 
         public static void imprimePeca(Peca peca)
@@ -40,6 +41,16 @@ namespace xadrez
                 Console.Write(peca);
                 Console.ForegroundColor = aux;
             }
+        }
+
+        public static PosicaoXadrez lerPosicaoXadrez()
+        {
+            string s = Console.ReadLine();
+            char coluna = s[0];
+            int linha = int.Parse(s[1] + "");
+
+            return new PosicaoXadrez(coluna, linha);
+
         }
 
     }
