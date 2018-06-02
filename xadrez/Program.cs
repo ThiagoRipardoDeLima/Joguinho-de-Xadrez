@@ -40,9 +40,9 @@ namespace xadrez
                     Console.ReadLine();
                 }
             }
-
-                     
-
+            Console.Clear();
+            Tela.imprimirPartida(partida);
+            
             Console.ReadLine();
 
         }
